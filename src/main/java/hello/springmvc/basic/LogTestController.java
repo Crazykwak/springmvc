@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LogTestController {
 
+//    private Logger log = LoggerFactory.getLogger(getClass());
+//    private static  final Logger log = LoggerFactory.getLogger(Xxx.class);
+
     @RequestMapping("log-test")
     public String logTest() {
         String name = "spring";
